@@ -1,0 +1,6 @@
+# OS Specifics
+.DS_Store
+
+# NodeJS vendors
+node_modules
+

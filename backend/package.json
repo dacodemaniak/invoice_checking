@@ -1,0 +1,14 @@
+{
+  "name": "rapprochement-api",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "api": "json-server --config json-server.json db.json",
+    "db:gen": "node scripts/generate-db.mjs",
+    "db:reset": "node scripts/generate-db.mjs && echo OK"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4",
+    "@faker-js/faker": "^9.0.0"
+  }
+}
